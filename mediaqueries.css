@@ -6,3 +6,14 @@
         display: flex;
     }
 }
+@media (max-width: 768px) {
+    .articleContainer {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .articleContainer {
+        grid-template-columns: repeat(1, 1fr); /* One column on mobile */
+    }
+}
