@@ -8,7 +8,7 @@
 }
 @media (max-width: 768px) {
     .articleContainer {
-        grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+        grid-template-columns: repeat(1, 1fr); /* Stack in one column on small screens */
     }
 }
 
