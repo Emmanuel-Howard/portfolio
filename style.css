@@ -261,6 +261,7 @@ section{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+
 }
 
 .aboutDetailsContainer{
@@ -271,10 +272,6 @@ section{
 .aboutContainers, 
 .aboutDetailsContainer{
     display: flex;
-}
-
-.aboutPic{
-    border-radius: 2rem;
 }
 
 .arrow{
@@ -289,7 +286,7 @@ section{
     flex: 1;
     background: white;
     border-radius: 2rem;
-    border: regb(53, 53, 53) 0.1rem solid;
+    border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
@@ -300,6 +297,13 @@ section{
 }
 
 .sectionPicContainer{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.aboutPic{
+    border-radius: 2rem;
     height: 400px;
     width: 400px;
     margin: auto 0;
