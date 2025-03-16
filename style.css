@@ -409,3 +409,14 @@ section{
 .emailIcon{
     height: 2.5rem;
 }
+
+/* Footer */
+
+footer{
+    height: 24vh;
+    margin: o 1rem;
+}
+
+footer p{
+    text-align:center;
+}
