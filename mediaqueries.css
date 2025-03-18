@@ -1,3 +1,13 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .aboutContainers{
+        flex-wrap: wrap;
+    }
+    }
+
 @media screen and (max-width: 1200px) {
     #desktopNav{
         display: none;
@@ -5,15 +15,40 @@
     #hamburgerNav{
         display: flex;
     }
-}
-@media (max-width: 768px) {
-    .articleContainer {
-        grid-template-columns: repeat(1, 1fr); /* Stack in one column on small screens */
+    #experience, .experienceDetailsContainer {
+        margin-top: 2rem;
     }
-}
+    #profil, .sectionContainer{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    section, .sectionContainer{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .sectionPicContainer{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .aboutContainers{
+        margin-top: 0;
+    }
+    }   
 
-@media (max-width: 480px) {
-    .articleContainer {
-        grid-template-columns: repeat(1, 1fr); /* One column on mobile */
+@media screen and (max-width: 1600px) {
+    #contact, footer{
+        height: 40vh;
     }
-}
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    }
