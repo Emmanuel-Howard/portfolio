@@ -299,7 +299,7 @@ section{
 .aboutPic{
     border-radius: 2rem;
     height: 400px;
-    width: 400px;
+    width: auto;
     margin: auto 0;
 }
 
