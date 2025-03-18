@@ -67,4 +67,12 @@
     .experienceSubtitle{
         font-size: 1.25rem;
     }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .navLinks{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
     }
