@@ -75,4 +75,18 @@
         gap: 0.5rem;
         text-align: center;
     }
+    .sectionPicContainer{
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    .sectionText_p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .textContainer{
+        text-align: justify;
+    }
     }
