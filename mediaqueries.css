@@ -51,4 +51,20 @@
     article{
         font-size: 1rem;
     }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2 rem;
+    }
+    .aboutContainers, .contactInfoUpperContainer, .btnContainer{
+        felx-wrap: wrap;
+    }
+    .contactInfoContainer{
+        margin: 0;
+    }
+    .contactInfoContainer p, .navLinks li a {
+        font-size: 1rem;
+    }
+    .experienceSubtitle{
+        font-size: 1.25rem;
+    }
     }
